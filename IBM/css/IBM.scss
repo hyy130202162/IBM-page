@@ -84,9 +84,11 @@ html,body{
 						.menu-ri{
 							width:62%;
 							height:580px;
+							background-color:#fff;
 							position:absolute;
 							top:0;
 							right:0;
+							display:none;
 							h2{
 								color:blue;
 								font-size:50px;
@@ -140,6 +142,9 @@ html,body{
 					.second-li:hover span{
 						font-weight:600;
 						font-size:22px;
+					}
+					.second-li:hover .menu-ri{
+						display:block;
 					}
 				}
 			}
@@ -580,7 +585,7 @@ html,body{
 		}
 	}
 }
-/*白色文字部分*/
+/*------------白色文字部分-----------*/
 @media screen and (min-width:1056px){
 	#kuaitext2,#kuaitext3{
 		display:none;
@@ -753,7 +758,6 @@ html,body{
 		}	
 	}
 }
-/*字的大小需要改正*/
 @media screen and (max-width:640px){
 	#kuaitext1,#kuaitext2{
 		display:none;
@@ -824,7 +828,7 @@ html,body{
 		}	
 	}
 }
-/*women图片块*/
+/*-----------women图片块---------------*/
 #women{
 	width:98.5%;
 	padding:0 0 0 1.5%;
@@ -938,7 +942,7 @@ html,body{
 		}
 	}
 }
-/*蓝色渐变板块*/
+/*----------蓝色渐变板块--------------*/
 #blue-linear{
 	width:100%;
 	padding:2% 0;
@@ -1016,7 +1020,7 @@ html,body{
 		}
 	}
 }
-/*discover  faxian tioamu*/
+/*--------discover  faxian tioamu------------*/
 #discover{
 	width:88%;
 	padding:0 6% 10px;
@@ -1068,7 +1072,7 @@ html,body{
 		}
 	}
 }
-/*选择地区语言*/
+/*---------选择地区语言的select板块---------*/
 #country{
 	width:86%;
 	padding:0 7% 10px;
@@ -1188,7 +1192,7 @@ html,body{
 		}
 	}
 }
-/*qiuqiu*/
+/*---------圆形锚点------------*/
 #dtop{
 	width:40px;
 	height:40px;
@@ -1217,7 +1221,7 @@ html,body{
 		display:none;
 	}
 }
-/*右边弹出框*/
+/*--------右边弹出框--------------*/
 #tanzz{
 	width:100%;
 	height:100%;
